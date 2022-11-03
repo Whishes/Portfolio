@@ -1,3 +1,6 @@
+import { BsChevronDoubleRight, BsChevronDoubleLeft } from "react-icons/bs";
+import pdf from "../src/resume.pdf";
+
 const Header = () => {
 	return (
 		<header className="header darkmode">
@@ -11,6 +14,11 @@ const Header = () => {
 				<br />
 				based in Melbourne
 			</h2>
+			<a className="cv-heading" href={pdf} download="resume.pdf">
+				<BsChevronDoubleRight />
+				My CV
+				<BsChevronDoubleLeft />
+			</a>
 			<p className="tag-heading">Start scrolling for more!</p>
 		</header>
 	);
