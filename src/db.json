@@ -1,0 +1,99 @@
+{
+	"skills": [
+		{
+			"id": 1,
+			"name": "HTML, CSS, Vanilla JS"
+		},
+		{
+			"id": 2,
+			"name": "Python"
+		},
+		{
+			"id": 3,
+			"name": "Python Flask"
+		},
+		{
+			"id": 4,
+			"name": "NodeJS"
+		},
+		{
+			"id": 5,
+			"name": "ExpressJS"
+		},
+		{
+			"id": 6,
+			"name": "React"
+		},
+		{
+			"id": 7,
+			"name": "PostgreSQL & MongoDB"
+		},
+		{
+			"id": 8,
+			"name": "Jest Testing Library"
+		},
+		{
+			"id": 9,
+			"name": "TypeScript"
+		},
+		{
+			"id": 10,
+			"name": "CI/CD using Github Actions"
+		}
+	],
+	"projects": [
+		{
+			"id": 1,
+			"name": "Wordle Clone",
+			"demo_link": "https://whishes.github.io/project-1/",
+			"github_link": "https://github.com/Whishes/project-1",
+			"img_link": "imgur.com",
+			"description": "",
+			"languages": "HTML, CSS, Vanilla JS"
+		},
+		{
+			"id": 2,
+			"name": "Niceities",
+			"demo_link": "https://immense-chamber-64350.herokuapp.com/",
+			"github_link": "https://github.com/Whishes/project-2-flask-app",
+			"img_link": "./images/project_2.png",
+			"description": "",
+			"languages": "HTML FE | Python/Flask BE"
+		},
+		{
+			"id": 3,
+			"name": "Travel Diary",
+			"demo_link": "https://wereallyouthere.herokuapp.com/",
+			"github_link": "https://github.com/Whishes/project-3-group",
+			"img_link": "imgur.com",
+			"description": "",
+			"languages": "Vanilla JS FE | Node/Express BE"
+		},
+		{
+			"id": 4,
+			"name": "Pokemon Rancher",
+			"demo_link": "https://limitless-oasis-74328.herokuapp.com/",
+			"github_link": "https://github.com/Whishes/project-4",
+			"img_link": "imgur.com",
+			"description": "",
+			"languages": "React FE | Node/Express BE"
+		}
+	],
+	"socials": [
+		{
+			"id": 1,
+			"name": "LinkedIn",
+			"link": "https://www.linkedin.com/in/nicholascruickshank/"
+		},
+		{
+			"id": 2,
+			"name": "Github",
+			"link": "https://github.com/Whishes"
+		},
+		{
+			"id": 3,
+			"name": "Email",
+			"link": "mailto:nicholas.cruickshank25@gmail.com"
+		}
+	]
+}
