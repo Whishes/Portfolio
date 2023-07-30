@@ -39,6 +39,18 @@
 		{
 			"id": 10,
 			"name": "CI/CD using Github Actions"
+		},
+		{
+			"id": 11,
+			"name": "TypeScript"
+		},
+		{
+			"id": 12,
+			"name": "Next.js"
+		},
+		{
+			"id": 13,
+			"name": "C#/.NET"
 		}
 	],
 	"projects": [
