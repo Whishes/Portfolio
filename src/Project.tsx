@@ -22,20 +22,33 @@ const Project = ({
   description: string;
   languages: string;
 }) => {
+  const getImport = (id: number) => {
+    switch (id) {
+      case 1:
+        return project_1;
+      case 2:
+        return project_2;
+      case 3:
+        return project_3;
+      case 4:
+        return project_4;
+    }
+  };
+
   return (
     <div className="individual-project">
       <h3 className="project-heading">{name}</h3>
       <a href={demo_link}>
         <img
           className="project-img"
-          src={`images/project_${pid}.png`}
+          src={getImport(pid)}
           alt={name + " screenshot"}
         />
       </a>
       <h4>{languages}</h4>
       <p className="project-paragraph">{description}</p>
       <ul className="links">
-        {/* render and heroku is incredibly expensive for more than 1 instance of posgresSQL */}
+        {/* render and heroku is incredibly expensive for more than 1 instance of posgresQL */}
         {pid === 1 && (
           <li className="li-item">
             <a className="project-link" href={demo_link}>
