@@ -49,7 +49,7 @@ const Project = ({
       <p className="project-paragraph">{description}</p>
       <ul className="links">
         {/* render and heroku is incredibly expensive for more than 1 instance of posgresQL */}
-        {pid === 1 && (
+        {pid === 1 || pid === 4 && (
           <li className="li-item">
             <a className="project-link" href={demo_link}>
               <CgWebsite />
